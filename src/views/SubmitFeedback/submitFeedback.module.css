@@ -1,0 +1,113 @@
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.back {
+  font-size: var(--fs-sm);
+  text-transform: uppercase;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--copyColor);
+  font-weight: var(--fw-bold);
+  line-height: var(--lineHeight);
+  letter-spacing: 0.15em;
+  display: flex;
+  align-items: center;
+}
+
+.back span {
+  margin-right: 0.5rem;
+}
+
+/* HEADER */
+.header {
+  margin: 1.125rem 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerText span {
+  text-transform: uppercase;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-sm);
+  line-height: var(--lineHeight);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--lightGrey200);
+}
+
+.headerText h1 {
+  font-size: var(--fs-xxl);
+  font-weight: var(--fw-semibold);
+}
+
+.headerImage {
+  height: 3.625rem;
+  width: 3.635rem;
+  border-radius: 3.125rem;
+}
+
+/* BODY */
+.body {
+  background: var(--copyLightColor);
+  box-shadow: var(--boxShadow);
+  padding: 1.75rem 1.43rem;
+  margin-top: 1.18rem;
+}
+
+.questionContainer {
+  margin-bottom: 2.2rem;
+}
+
+.questionActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.questionProgessStatus {
+  color: var(--accentColor);
+}
+
+.questionProgessStatus span{
+  text-transform: uppercase;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-sm);
+  line-height: var(--lineHeight);
+  letter-spacing: 0.15em;
+  margin-bottom: 0.2rem;
+  color: var(--copyDarkColor);
+  display: block;
+}
+
+.questionProgessStatus span:last-child  {
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-base);
+  color: var(--copyDarkColor);
+  letter-spacing: normal;
+  margin: 0;
+  text-transform: none;
+}
+
+.questionProgessStatus .bar {
+  background: var(--lightGrey);
+  border-radius: 0.2rem;
+  margin: 2rem auto 1rem auto;
+  height: 0.3rem;
+  width: 100%;
+}
+
+.questionProgessStatus .bar::-webkit-progress-bar {
+  background: var(--lightGrey);
+  border-radius: 0.2rem;
+}
+
+.questionProgessStatus .bar::-webkit-progress-value {
+  background: linear-gradient(to right, #1ddebb, #98fffb);
+  border-radius: 0.2rem;
+}
+
+

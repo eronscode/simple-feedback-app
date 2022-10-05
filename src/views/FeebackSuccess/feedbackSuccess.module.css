@@ -1,0 +1,45 @@
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+/* HEADER */
+.header {
+  margin: 1.125rem 0 1rem 0;
+}
+
+.header span {
+  text-transform: uppercase;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-sm);
+  line-height: var(--lineHeight);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--lightGrey200);
+}
+
+.header h1 {
+  font-size: var(--fs-xxl);
+  font-weight: var(--fw-semibold);
+}
+
+.users {
+  border: var(--baseBorder);
+  list-style-type: none;
+}
+
+.user {
+  align-items: center;
+  border-bottom: var(--baseBorder);
+  display: flex;
+  padding: 1rem;
+}
+
+.user:hover {
+  background-color: var(--primaryLightColor);
+}
+
+.user:last-child {
+  border-bottom: none;
+}

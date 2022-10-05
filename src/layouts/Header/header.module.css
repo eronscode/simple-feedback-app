@@ -1,0 +1,89 @@
+.header {
+  align-items: stretch;
+  background-color: var(--lightGrey);
+  border-bottom: var(--baseBorder);
+  display: flex;
+  gap: 2rem;
+  padding: 0 var(--baseHorzSpacing);
+}
+
+.header h1 {
+  font-weight: var(--fw-bold);
+}
+
+.header h1,
+.header a {
+  align-items: center;
+  color: var(--copyColor);
+  display: flex;
+  margin: 0;
+}
+
+.header a {
+  border-bottom: 3px solid var(--lightGrey);
+  margin-bottom: 1px;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 3px solid var(--primaryColor) !important;
+}
+
+.spacer {
+  border-right: var(--baseBorder);
+  flex: 1;
+}
+
+.badge {
+  position: absolute;
+  right: -1.31rem;
+  top: 1rem;
+  background: var(--primaryColor);
+  color: var(--copyLightColor);
+  border-radius: 3.125rem;
+  padding: 0.06rem 0.3125rem 0;
+  margin: 0;
+  font-size: var(--fs-sm);
+}
+
+.navlink {
+  position: relative;
+}
+
+.themeToggle {
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  height: fit-content;
+  position: relative;
+  top: 2.5rem;
+  font-size: var(--fs-l);
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.userWidget {
+  display: flex;
+  align-items: center;
+}
+
+.userWidget img {
+  border-radius: 50%;
+  border: var(--baseBorder);
+  display: inline-block;
+  height: 3.62rem;
+  width: 3.62rem;
+}
+
+.userWidgetText {
+  margin-left: 1.25rem;
+  color: var(--copyColor);
+}
+
+.userWidgetText a {
+  padding: 0;
+  letter-spacing: 0.15em;
+  font-size: var(--fs-sm);
+}

@@ -1,0 +1,20 @@
+.wrapper p {
+  text-align: right;
+  color: var(--copyDarkColor);
+}
+
+.rateIconContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.rateIcon {
+  background: var(--lightGrey);
+  border: 2px solid var(--copyLightColor);
+  cursor: pointer;
+}
+
+.fill {
+  background: var(--primaryColor);
+}
